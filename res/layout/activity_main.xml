@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.great.happyness.wifimain.MainActivity" >
+
+    <Button 
+        android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CreateWifi">
+    </Button>
+    
+    <Button
+        android:id="@+id/btn2"
+        android:layout_below="@id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ConnectWifi">
+    </Button>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_below="@id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Recv">
+    </Button>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_below="@id/btn3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send">
+    </Button>
+</RelativeLayout>

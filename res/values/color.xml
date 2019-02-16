@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="green">#66ff99</color>
+    <color name="blue_powder">#4DA8D9</color>
+    
+	<color name="transparent">@android:color/transparent</color>
+    <color name="black">@android:color/black</color>
+    <color name="darker_gray">@android:color/darker_gray</color>
+    <color name="white">@android:color/white</color>
+    <color name="transparent_white">#44ffffff</color>
+    
+    <!-- captrue -->
+    <color name="viewfinder_frame">#ff4DA8D9</color>
+    <color name="viewfinder_laser">#ff4DA8D9</color>
+    <color name="viewfinder_mask">#33ffffff</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    
+</resources>
